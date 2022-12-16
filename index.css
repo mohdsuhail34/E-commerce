@@ -47,7 +47,7 @@ justify-content: space-around;
     width: 100%-5vw;
 }
 .electronic-card {
-    background-image: url(/image/1electronic.webp);
+    background-image: url('./image/1electronic.webp');
     background-repeat: no-repeat;
     width: 230px !important;
     height: 300px !important;
@@ -82,7 +82,7 @@ justify-content: space-around;
     width: 100%-5vw;
 }
 .beauty-card{
-    background-image: url("/image/toys.webp");
+    background-image: url("./image/toys.webp");
     background-repeat: no-repeat;
     width: 230px !important;
     height: 300px !important;
@@ -101,7 +101,7 @@ justify-content: space-around;
     width: 100%-5vw;
 }
 .winter-cards{
-    background-image: url(/image/wint.jpeg);
+    background-image: url(./image/wint.jpeg);
     background-repeat: no-repeat;
     width: 230px !important;
     height: 300px !important;
@@ -129,7 +129,7 @@ font-size: 12px;
     width: 100%-5vh;
 }
 .fashion-cards{
-    background-image: url(/image/toys.webp);
+    background-image: url(./image/toys.webp);
     background-repeat: no-repeat;
     width: 230px;
     height: 300px;
