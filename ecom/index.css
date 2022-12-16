@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h4{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    margin: 5px;
+}
+h5{
+    color: rgb(29, 140, 29);
+    font-family:'Times New Roman', Times, serif;
+}
+h6{
+    padding: 5px;
+    text-align: center;
+}
+.categories{
+    overflow-x: scroll;
+}
+.shoes{
+    object-fit: cover;
+}
+.high{
+    height: 600px !important;
+    object-fit: cover;
+}
+.categories{
+display: flex;
+justify-content: space-around;
+}
+.category-card img{
+    width: 64px !important;
+    height: 64px !important;
+}
+
+.category-card span{
+    font-weight: 500;
+    font-size: 14px;
+}
+.Electronic{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%-5vw;
+}
+.electronic-card {
+    background-image: url(/image/1electronic.webp);
+    background-repeat: no-repeat;
+    width: 230px !important;
+    height: 300px !important;
+    object-fit: cover;
+    background-position: 0% bottom;
+    color: brown;
+}
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    align-items: center;
+    margin: 15px;
+}
+#button{
+    position: relative;
+    left: 65px;
+    top: 15px;
+}
+.electronic-cards img {
+    width: 200px !important;
+    height: 172px !important;
+    object-fit: cover;
+     background-position: 0% bottom; 
+}
+.head{
+    text-align: center;
+}
+.Beauty{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%-5vw;
+}
+.beauty-card{
+    background-image: url("/image/toys.webp");
+    background-repeat: no-repeat;
+    width: 230px !important;
+    height: 300px !important;
+    object-fit: cover;
+    background-position: 0% bottom; 
+}
+.beauty-cards img{
+    width: 200px !important;
+    height: 172px !important;
+    object-fit: cover;
+     background-position: 0% bottom; 
+}
+.winter{
+    display: flex;
+  flex-wrap: wrap;
+    width: 100%-5vw;
+}
+.winter-cards{
+    background-image: url(/image/wint.jpeg);
+    background-repeat: no-repeat;
+    width: 230px !important;
+    height: 300px !important;
+    object-fit: cover;
+    background-position: 0% bottom;  
+}
+ p{
+text-align: center;
+font-size: 12px;
+} 
+.heading {
+    text-align: center;
+
+}
+.winter-card img{
+    width: 200px !important;
+    height: 172px !important;
+    object-fit: cover;
+     background-position: 0% bottom; 
+}
+
+.fashion{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%-5vh;
+}
+.fashion-cards{
+    background-image: url(/image/toys.webp);
+    background-repeat: no-repeat;
+    width: 230px;
+    height: 300px;
+    object-fit: cover;
+    background-position: 0% bottom;
+}
+.heading-b{
+    color: black;
+    text-align: center;
+}
+.fashion-card  img{
+    width: 200px;
+    height: 172px;
+    object-fit: cover;
+    background-position: 0% bottom;
+}
