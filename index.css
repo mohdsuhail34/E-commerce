@@ -21,8 +21,11 @@ h6{
 .categories{
     overflow-x: scroll;
 }
-.shoes{
+#shoes{
     object-fit: cover;
+}
+.phone-img{
+padding-left: 2.5rem;
 }
 .high{
     height: 600px !important;
@@ -30,6 +33,7 @@ h6{
 }
 .categories{
 display: flex;
+flex-wrap: wrap;
 justify-content: space-around;
 }
 .category-card img{
@@ -44,7 +48,7 @@ justify-content: space-around;
 .Electronic{
     display: flex;
     flex-wrap: wrap;
-    width: 100%-5vw;
+    width: 100%;
 }
 .electronic-card {
     background-image: url('./image/1electronic.webp');
@@ -52,7 +56,7 @@ justify-content: space-around;
     width: 230px !important;
     height: 300px !important;
     object-fit: cover;
-    background-position: 0% bottom;
+    background-position: 5% bottom;
     color: brown;
 }
 .heading{
@@ -146,3 +150,37 @@ font-size: 12px;
     object-fit: cover;
     background-position: 0% bottom;
 }
+@media (max-width:450px){
+    .Electronic {
+       margin-left: 7rem !important;
+
+    }
+}
+
+@media (max-width:450px){
+    .Beauty {
+       margin-left: 7rem !important;
+
+    }
+}
+@media (max-width:450px){
+    .winter {
+       margin-left: 7rem !important;
+
+    }
+}
+@media (max-width:450px){
+    .fashion {
+       margin-left: 7rem !important;
+
+    }
+}
+@media (max-width:768){
+    .phone-img {
+       margin-left: 5rem !important;
+
+    }
+}
+
+
+    
